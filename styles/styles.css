@@ -811,6 +811,7 @@
         background-color: #131313; 
     }
     
+
     .header {
         display: flex;
         justify-content: space-between;
@@ -849,6 +850,10 @@
         color: #E3B873;
         margin-top: 5px;
         text-decoration-line: underline;
+    }
+
+    .header__phone:hover {
+        cursor: pointer;
     }
     
     .header__button {
@@ -1551,6 +1556,7 @@
     .section-renovationstyles__picture {
         display: flex;
         flex-direction: column;
+        
         width: 1440px;
         height: 864px;
     }
@@ -1721,18 +1727,23 @@
     .section-clientsfeedback-container-feedback-stats__decor {
         margin-left: -8px;
     }
-    
+
     .section-clientsfeedback-back {
-        position: relative;
+        width: 100%;
         margin-top: -60px;
-        margin-left: -1112px;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .section-clientsfeedback-back__1 {
+        position: relative;
     }
     
-    .section-clientsfeedback-back2 {
+    .section-clientsfeedback-back__2 {
         position: relative;
-        margin-top: -510px;
-        margin-left: -350px;
-        transform: matrix(-1,0,0,1,729,0);
+        margin-left: -17px;
+        transform: matrix(-1,0,0,1,0,0);
     }
     
     .section-clientsfeedback-semitransparent {
