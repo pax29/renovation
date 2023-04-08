@@ -40,6 +40,7 @@
     .header__logo {
         color: #E3B873;
         margin-top: 5px;
+        cursor: pointer;
     }
     
     .header-navigation {
@@ -49,6 +50,7 @@
     .header__phone {
         color: #FFFFFF;
         margin-top: 5px;
+        cursor: pointer;
     }
     
     .header__button {
@@ -121,6 +123,7 @@
         text-transform: uppercase;
         margin-left: 19px;
         margin-bottom: 25px;
+        cursor: pointer;
 
     }
     
@@ -137,6 +140,7 @@
         text-align: center;
         text-transform: uppercase;
         margin-left: 19px;
+        cursor: pointer;
     }
     
     .section-projects {
@@ -243,6 +247,10 @@
         margin-top: -139px;
         display: flex;
         justify-content: space-between;
+    }
+
+    .mobileswitch__button {
+        cursor: pointer;
     }
 
     .section-monitoring {
@@ -357,7 +365,8 @@
         display: flex;
         flex-wrap: wrap;
         width: 340px;
-        height: 311px;
+        height: 261px;
+
     }
     
     .section-monitoring-container-broadcastrequest__input {
@@ -381,6 +390,7 @@
         margin-top: -2px;
         color: #FFFFFF;
         background-color: #181818;
+        outline-style:none;
     }
     
     .section-monitoring-container-broadcastrequest__input input::placeholder {
@@ -405,8 +415,10 @@
         text-align: center;
         text-transform: uppercase;
         margin-top: 47px;
+        cursor: pointer;
+        position: relative;
     }
-
+    
     .section-monitoring-container-broadcastrequest__checkbox {
         margin-top: -135px;
         margin-left: -4px;
@@ -417,6 +429,7 @@
         height: 18px;
         margin-right: 6px;
         accent-color: #E3B873;
+        cursor: pointer;
     }
     
     .section-monitoring-container-broadcastrequest__checkbox label {
@@ -663,6 +676,7 @@
         font-size: 14px;
         color: #FFFFFF;
         background-color: #181818;
+        outline-style:none;
     }
     
     .section-contacts-container-questions-container__input {
@@ -686,6 +700,7 @@
         font-size: 14px;
         color: #FFFFFF;
         background-color: #181818;
+        outline-style:none;
     }
     
     .section-contacts-container-questions-container__input input::placeholder {
@@ -700,6 +715,7 @@
         margin-left: -56px;
         accent-color: #E3B873;
         background-color: #131313;
+        cursor: pointer;
     }
     
     .section-contacts-container-questions-container__checkbox label {
@@ -727,10 +743,11 @@
         text-align: center;
         text-transform: uppercase;
         margin-top: 64px;
+        cursor: pointer;
     }
     
-    .section-contacts-container__address {
-        width: 340px;
+    .section-contacts-container__mobileaddress {
+        width: 350px;
         height: 51px;
         font-family: YesevaOne-Regular;  
         font-weight: 400;
@@ -742,6 +759,10 @@
         margin-top: 35px;
     }
     
+    .section-contacts-container__address {
+        display: none;
+    }
+
     .section-contacts-container-mobilelinks {
         display: flex;
         margin-top: 46px;
@@ -752,23 +773,12 @@
         justify-content: space-between;
     }
     
-    .section-contacts-container-links {
-        display: none;
+    .section-contacts-container-mobilelinks svg {
+        cursor: pointer;
     }
 
-    .section-contacts-container-links-element {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .section-contacts-container-links-element__email {
-        margin-left: 6px;
-        margin-top: -24px;
-    }
-    
-    .section-contacts-container-links-element__insta {
-        margin-left: 7px;
-        margin-top: -25px;
+    .section-contacts-container-links {
+        display: none;
     }
     
     .section-contacts-container__map {
@@ -824,6 +834,7 @@
     .header__logo {
         color: #E3B873;
         margin-top: 5px;
+        cursor: pointer;
     }
     
     .header-navigation {
@@ -850,9 +861,6 @@
         color: #E3B873;
         margin-top: 5px;
         text-decoration-line: underline;
-    }
-
-    .header__phone:hover {
         cursor: pointer;
     }
     
@@ -870,8 +878,9 @@
         line-height: 15px;
         text-align: center;
         text-transform: uppercase;
+        cursor: pointer;
     }
-    
+
     .section-welcome {
         padding-top: 100px;
         display: flex;
@@ -940,6 +949,7 @@
         text-align: center;
         text-transform: uppercase;
         margin-right: 17px;
+        cursor: pointer;
     }
     
     .section-welcome__button2 {
@@ -955,6 +965,7 @@
         text-align: center;
         text-transform: uppercase;
         margin-right: 17px;
+        cursor: pointer;
     }
     
     .section-projects {
@@ -1039,6 +1050,10 @@
         height: 13px;
     }
     
+    .section-projects-container-switch__arrow {
+        cursor:pointer;
+    }
+
     .section-projects-container-switch__dots {
         margin-top: -5px;
         margin-left: 5px;
@@ -1063,6 +1078,7 @@
         color: #E3B873;
         margin-right: 57px;
         border-bottom: solid 1px #E3B873;
+        cursor: pointer;
     }
     
     .section-projects-container-selector__item_disabled {
@@ -1073,6 +1089,7 @@
         text-transform: uppercase;
         color: rgba(255, 255, 255, 0.3);
         margin-right: 57px;
+        cursor: pointer;
     }
     
     
@@ -1226,6 +1243,7 @@
         font-family: NunitoSans-Regular;
         font-size: 14px;
         color: rgb(54, 54, 54);
+        outline-style: none;
     }
     
     .section-monitoring-container-broadcastrequest__input input::placeholder {
@@ -1249,6 +1267,7 @@
         line-height: 27px;
         text-align: center;
         text-transform: uppercase;
+        cursor:pointer;
     }
     
     .section-monitoring-container-broadcastrequest__checkbox input {
@@ -1257,6 +1276,7 @@
         margin-left: -5px;
         margin-right: 5px;
         accent-color: #E3B873;
+        cursor:pointer;
     }
     
     .section-monitoring-container-broadcastrequest__checkbox label {
@@ -1471,6 +1491,7 @@
         font-size: 14px;
         color: #FFFFFF;
         background-color: #131313;
+        outline-style:none;
     }
     
     .section-preparations-container-right__input input::placeholder {
@@ -1496,6 +1517,7 @@
         text-transform: uppercase;
         margin-left: 244px;
         margin-top: 36px;
+        cursor:pointer;
     }
     
     .section-preparations-container-right__checkbox input {
@@ -1506,6 +1528,7 @@
         margin-right: 6px;
         accent-color: #E3B873;
         background-color: #131313;
+        cursor:pointer;
     }
     
     .section-preparations-container-right__checkbox label {
@@ -1601,6 +1624,10 @@
         list-style: none;
     }
     
+    .section-renovationstyles-summary-list ul li {
+        cursor:pointer;
+    }
+
     .section-renovationstyles-summary-list ul li:nth-child(1){
         text-decoration: underline;
         text-underline-offset: 6px;
@@ -1843,6 +1870,7 @@
         font-size: 14px;
         color: #FFFFFF;
         background-color: #181818;
+        outline-style:none;
     }
     
     .section-contacts-container-questions-container__input {
@@ -1865,6 +1893,7 @@
         font-size: 14px;
         color: #FFFFFF;
         background-color: #181818;
+        outline-style:none;
     }
     
     .section-contacts-container-questions-container__input input::placeholder {
@@ -1879,6 +1908,7 @@
         margin-right: 6px;
         accent-color: #E3B873;
         background-color: #131313;
+        cursor:pointer;
     }
     
     .section-contacts-container-questions-container__checkbox label {
@@ -1906,6 +1936,7 @@
         text-align: center;
         text-transform: uppercase;
         margin-top: 47px;
+        cursor:pointer;
     }
     
     .section-contacts-container__address {
@@ -1921,6 +1952,10 @@
         margin-top: 49px;
     }
     
+    .section-contacts-container__mobileaddress {
+        display: none;
+    }
+
     .section-contacts-container-links {
         display: flex;
         margin-top: 29px;
@@ -1938,6 +1973,7 @@
     .section-contacts-container-links-element {
         display: flex;
         flex-direction: column;
+        cursor:pointer;
     }
     
     .section-contacts-container-links-element__email {
